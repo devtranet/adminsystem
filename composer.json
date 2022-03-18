@@ -1,0 +1,21 @@
+{
+  "name": "devtranet/adminsystem",
+  "description": "Allows easy rendering of administration pages",
+  "type": "library",
+  "require": {
+    "php": ">=8.0.0"
+  },
+  "license": "mit",
+  "authors": [
+    {
+      "name": "Nicholas Ashley",
+      "email": "devtranet@outlook.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "devtranet\\adminsystem": "src/"
+    }
+  }
+}
